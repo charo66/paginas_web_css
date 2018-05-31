@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@font-face { font-family: 'Shadows';
+    src: url('../assets/ShadowsIntoLight.ttf')};
+*,
+*::after, *::before,
+*:after, *:before,
+{box-sizing: border-box;}
+body{ background-color: bisque}
+
+
+.icono_inicio {
+    position: relative;
+    font-size: 3rem;
+    padding: 1rem;
+    background-color: brown;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icono_inicio:hover {
+    background-color: olive;
+    color:tomato;
+    font-size: 4rem;
+} 
+    
+
+
+h1 {
+    font-family: 'Shadows'
+}
+h2 {
+    font-family: Pacifico
+}
+p {
+    font-family: 'Lobster', cursive;;
+}
