@@ -4,7 +4,12 @@
 body {
     margin: 2rem;
 }
-
+h1{
+    background-color: bisque;
+}
+.ingles {
+    background-color: darkorange
+}
 section div.wrapper {
     background-color: bisque;
     overflow: auto;
