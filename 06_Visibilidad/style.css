@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box
+}
+body {
+    margin: 2rem;
+}
+
+h2:hover
+section div.wrapper {
+    background-color: bisque;
+    overflow: auto;
+}
+section div.wrapper div {
+    float: left;
+}
+
+section div.text-wrapper {
+    width: 70%;
+    padding: 2rem;
+    
+}
+
+section div.img-wrapper {
+    width: 25%;
+    padding: 2rem;
+    display: none;
+}
+
+section div.wrapper:hover div.img-wrapper {
+    display: block;
+}
+
+section div.img-wrapper img {
+    width: 100%;
+}
