@@ -5,7 +5,6 @@ body {
     margin: 2rem;
 }
 
-h2:hover
 section div.wrapper {
     background-color: bisque;
     overflow: auto;
@@ -23,13 +22,16 @@ section div.text-wrapper {
 section div.img-wrapper {
     width: 25%;
     padding: 2rem;
-    display: none;
+    /* display: none; */
+    visibility: hidden;
 }
 
 section div.wrapper:hover div.img-wrapper {
-    display: block;
+    /* display: block; */
+    visibility: visible;
 }
 
 section div.img-wrapper img {
     width: 100%;
+    max-width: 100%;
 }
