@@ -1,0 +1,23 @@
+/* body{
+    margin: 2rem;
+    background-color: bisque;
+}
+header h1{
+    color: brown
+}
+header p{
+    font-size: 1.5rem;
+} */
+body {
+  margin: 2rem;
+  background-color: bisque;
+}
+
+header h1 {
+  color: brown;
+}
+header p {
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
