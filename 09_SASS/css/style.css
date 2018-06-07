@@ -13,6 +13,11 @@ body {
   background-color: bisque;
 }
 
+header {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
 header h1 {
   color: brown;
 }
@@ -20,4 +25,4 @@ header p {
   font-size: 1.5rem;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=css/style.css.map */
