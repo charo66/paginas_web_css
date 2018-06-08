@@ -30,11 +30,14 @@ body {
 /* Aqui va el header */
 header {
   width: 60%;
-  margin-left: auto;
+  margin-left: 30%;
   margin-right: auto;
 }
 header:hover {
-  background-color: aquamarine;
+  background-color: #1aff1a;
+}
+header:hover p {
+  color: blue;
 }
 header h1 {
   color: brown;
