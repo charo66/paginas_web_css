@@ -14,7 +14,6 @@
   "author": "Diego",
   "license": "ISC",
   "dependencies": {
-    "boostrap": "^2.0.0",
     "bootstrap": "^4.1.1"
   }
 }
