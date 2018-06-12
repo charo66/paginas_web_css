@@ -1,0 +1,53 @@
+/* body{
+    margin: 2rem;
+    background-color: bisque;
+}
+header h1{
+    color: brown
+}
+header p{
+    font-size: 1.5rem;
+} */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: bisque;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2rem;
+  background-color: bisque;
+}
+
+/* Aqui va el header */
+header {
+  width: 60%;
+  margin-left: 30%;
+  margin-right: auto;
+}
+header:hover {
+  background-color: #1aff1a;
+}
+header:hover p {
+  color: blue;
+}
+header h1 {
+  color: brown;
+}
+header p {
+  font-size: 1.5rem;
+}
+
+footer > p {
+  color: lightgreen;
+}
+
+/*# sourceMappingURL=css/style.css.map */

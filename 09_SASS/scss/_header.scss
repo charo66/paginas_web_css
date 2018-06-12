@@ -1,0 +1,20 @@
+$fondo:aqua;
+$fondo1: yellow;
+$fondo3: mix($fondo,$fondo1);
+$margen1: 20%;
+$margen2: 10%;
+$margen3: $margen1+$margen2;
+
+
+header{
+        width: 60%;
+        margin-left: $margen3;
+        margin-right: auto;
+        &:hover {
+            background-color: darken($fondo3,20);
+        }
+        &:hover p {color: blue};
+
+        @import "header2.scss"
+
+}

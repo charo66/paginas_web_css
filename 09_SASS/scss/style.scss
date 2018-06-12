@@ -1,0 +1,35 @@
+/* body{
+    margin: 2rem;
+    background-color: bisque;
+}
+header h1{
+    color: brown
+}
+header p{
+    font-size: 1.5rem;
+} */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 2rem;
+    padding: 2rem;
+    background-color: bisque
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2rem;
+    background-color: bisque;
+}
+
+/* Aqui va el header */
+//Este comentario no es muy útil//
+//no es util
+@import "header.scss";
+footer{
+    adress{}
+    >p{color: lightgreen}
+}
