@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    width: 20%;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+section.dragones {
+    border: 1px solid;
+    width: 80%;
+    /* PAARA DESCOLAPSAR EL CONTENEDORRR!! */
+    overflow: auto;
+}
+
+/* OTRA FORMA DE DESCOLAPSAR EL CONTENEDOR
+section.dragones::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+section.dragones div {
+    float: left;
+}
+
+section.fondos {
+    position: relative;
+}
+
+section.fondos::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content:"";
+    background-image: url('../Assets/Tatuaje_redimensionadp.jpg');
+    opacity: 0.30;
+}
+
+/* background de seguridad por si la imagen se rompe */
+
+/* section.fondos2 {
+    padding: 1rem;
+    background-color: darkslategray
+    background-image: url('../Assets/photo-sand-background.jpg');
+} */
+
+
+section.fondos2 {
+    padding: 1rem;
+    background-image: url('../Assets/photo-sand-background.jpg');
+    background-repeat: repeat; /* repeat-y / repeat-x / no-repeat */
+}
+
+section.fondos2 div {
+    border: 1px solid;
+    width: 25rem;
+    height: 25rem;
+    padding: 2rem;
+    background-image: url('../Assets/Tatuaje_redimensionadp.jpg');
+    background-repeat: no-repeat; /* repeat-y / repeat-x / no-repeat */
+    background-size: cover;
+    
+}

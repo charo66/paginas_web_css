@@ -1,21 +1,24 @@
 body {
-    margin-top: 0rem;
+    margin: 0rem;   
 }
-header {
-    margin-top: 0rem;
+
+header{
     margin-bottom: 2rem;
     height: 4rem;
-    background-color: maroon;
-    color: bisque
-    }
-h1 {
-    margin-top: 0;
-   
-    text-align: center;
-    line-height: 4rem;
+    background-color: darkolivegreen;
+    color: antiquewhite;
 }
-p { text-align: justify;
-text-indent: 3rem;
-    width: 56.8%; 
-    margin-left: auto;
-    margin-right: auto; }
+
+h1 { 
+margin-top: 0rem;
+text-align: center;
+line-height: 4rem;
+}
+
+/* centrar párrafos */
+p {
+text-align: center;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
