@@ -1,10 +1,9 @@
 {
-  "name": "proyecto",
+  "name": "Proyecto",
   "version": "1.0.0",
-  "description": "Proyecto Front",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "echo 'Saludos'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,9 +11,10 @@
     "CSS",
     "JS"
   ],
-  "author": "Charo",
+  "author": "Diego",
   "license": "ISC",
   "dependencies": {
-    "boostrap": "^2.0.0"
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.1.1"
   }
 }

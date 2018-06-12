@@ -42,12 +42,14 @@ section {
     border: 2px solid;
     /* overflow: auto; */
 }
+
+/* para descolapsar los elementos  */
 section::after{
     content: "";
     display: block;
     clear: both;
-    /* height: 1rem;
-    background-color: blue; */
+    height: 1rem;
+    background-color: blue
 }
 
 section.inline-block p {
@@ -66,8 +68,9 @@ section.float p {
 span {
     font-size: 5rem;
 }
+
 blockquote {
     color: bisque;
     font-weight: 900;
-   /*  clear: left; */
+    
 }

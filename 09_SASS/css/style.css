@@ -1,53 +1,75 @@
-/* body{
-    margin: 2rem;
-    background-color: bisque;
-}
-header h1{
-    color: brown
-}
-header p{
-    font-size: 1.5rem;
-} */
+@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
 
-body {
-  margin: 2rem;
-  padding: 2rem;
-  background-color: bisque;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 2rem;
-  background-color: bisque;
-}
-
-/* Aqui va el header */
+/* Aquí va el header */
+/* $fondo3: lighten($fondo,15); - Aclarar */
+/* oscurecer */
 header {
   width: 60%;
-  margin-left: 30%;
+  margin-left: auto;
   margin-right: auto;
 }
-header:hover {
-  background-color: #1aff1a;
-}
-header:hover p {
-  color: blue;
-}
 header h1 {
-  color: brown;
+  color: maroon;
+  margin-bottom: 0.3rem;
 }
 header p {
+  margin-top: 0;
   font-size: 1.5rem;
 }
-
-footer > p {
-  color: lightgreen;
+header:hover {
+  background-color: #00b276;
 }
 
-/*# sourceMappingURL=css/style.css.map */
+body {
+  margin: 2rem;
+  background-color: #dad3cc;
+}
+
+/* Ejemplo de extend */
+/* section {
+    h2 {
+        color: darkolivegreen; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    }
+    p {
+        @extend h2;
+         //color: darkolivegreen 
+        font-size: 1,1rem;
+        
+    }
+} */
+section h2 {
+  color: maroon;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+section p {
+  color: maroon;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1, 1rem;
+  /* & Para aplicarlo al mismo p */
+}
+section p:nth-child(2) {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+}
+section p:nth-child(3) {
+  width: 80% 1;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+footer address p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer > p {
+  color: darkolivegreen;
+}
+
+/*# sourceMappingURL=css/Style.css.map */

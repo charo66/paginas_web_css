@@ -1,20 +1,22 @@
-$fondo:aqua;
-$fondo1: yellow;
-$fondo3: mix($fondo,$fondo1);
+$fondo: aquamarine;
+$fondo1: maroon;
+$fondo2: mix($fondo,$fondo1);
+
+/* $fondo3: lighten($fondo,15); - Aclarar */
+
+/* oscurecer */
+$fondo3: saturate(darken($fondo,40), 10);
 $margen1: 20%;
 $margen2: 10%;
-$margen3: $margen1+$margen2;
+$margen3: $margen1 + $margen2;
 
-
-header{
-        width: 60%;
-        margin-left: $margen3;
-        margin-right: auto;
-        &:hover {
-            background-color: darken($fondo3,20);
-        }
-        &:hover p {color: blue};
-
-        @import "header2.scss"
-
+header{ 
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; 
+    @import 'header2.scss';
+    
+    &:hover {
+        background-color: $fondo3;
+    }
 }
