@@ -18,6 +18,10 @@ div {
     /* bottom: 4rem; */
 }
 .absolute {
+    margin: 0;
     position: absolute;
-    
+    /* top: 0; */
+    left: 0;
+    bottom: 0rem;
+  
 }
