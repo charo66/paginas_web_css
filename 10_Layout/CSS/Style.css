@@ -16,6 +16,7 @@ Procedemos con la edición de la foto con un before, solido y transparencia. Par
 
 Creamos un div con altura y anchura. Re-estructuramos pasando la imagen de background al div y creamos un div::before con content, posiciones top, b, r, l para que herede y con un background-color negro con opacidad. Le damos al div un position: absolute y al heder, h1 y nav un position: relative.
 */
+/* para resetear el body */
 * {
   box-sizing: border-box;
 }

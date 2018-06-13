@@ -18,9 +18,25 @@ Procedemos con la edición de la foto con un before, solido y transparencia. Par
 Creamos un div con altura y anchura. Re-estructuramos pasando la imagen de background al div y creamos un div::before con content, posiciones top, b, r, l para que herede y con un background-color negro con opacidad. Le damos al div un position: absolute y al heder, h1 y nav un position: relative.
 */
 
+/* para resetear el body */
+@mixin reset($tipo: full) {
+    @if ($tipo==full) 
+    {
+        margin: 0;
+        padding: 0;    
+    } @else if ($tipo==vert) {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
+body {
+    @include reset();
 
 header {
     position: relative;
@@ -47,10 +63,11 @@ header {
         position: relative;
         clear: both;
         text-align: center;
-        padding-top: 0;
+        @include reset(vert);
+       /*  padding-top: 0;
         padding-bottom: 0;
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 0; */
         line-height: 100vh;
         font-family: 'Abril Fatface', cursive;
         font-size: 2.4rem;
