@@ -21,6 +21,11 @@ Creamos un div con altura y anchura. Re-estructuramos pasando la imagen de backg
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   position: relative;
   height: 100vh;
@@ -58,19 +63,44 @@ header h1 {
 
 nav {
   position: absolute;
+  z-index: 10;
   right: 0;
 }
 nav ul {
   list-style: none;
   padding: 0;
 }
-nav li {
-  display: inline-block;
-}
-nav a {
+nav ul a {
   color: inherit;
   text-decoration: none;
+  padding: 0.2rem 2rem;
+}
+nav ul a:hover {
+  color: aliceblue;
+  background-color: brown;
+}
+nav ul ul {
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav > ul > li {
+  display: inline-block;
+  position: relative;
+}
+nav > ul > li:hover > ul {
+  position: absolute;
+  top: 2.5rem;
+  left: 1.3rem;
+}
+nav > ul > li > a {
   padding: 1.5rem 2rem;
+}
+nav > ul > li > ul > li:hover ul {
+  position: absolute;
+  top: 0rem;
+  left: 6rem;
 }
 
 main {
