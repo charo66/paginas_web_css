@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: darkcyan
+}
+
+div {
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: salmon;
+
+}

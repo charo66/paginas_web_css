@@ -80,4 +80,5 @@ section.table div {
 }
 section.table div p {
     display: table-cell;
+    vertical-align: middle;
 }
