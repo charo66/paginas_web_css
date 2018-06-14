@@ -2,9 +2,10 @@
     box-sizing: border-box;
 }
 
-body {
+section {
     display: flex;
-    background-color: darkcyan
+    background-color: darkcyan;
+    flex-direction: row;
 }
 
 div {
