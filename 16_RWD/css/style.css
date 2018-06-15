@@ -1,0 +1,21 @@
+body {
+  background-color: brown;
+  color: bisque;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+}
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  body {
+    background-color: aquamarine;
+    color: darkgoldenrod;
+  }
+}
+
+/*# sourceMappingURL=css/style.css.map */
