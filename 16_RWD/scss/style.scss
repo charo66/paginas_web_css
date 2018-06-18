@@ -17,6 +17,7 @@ footer {
 @media screen and (min-width:620px ) {
     h1 { 
         font-size: 2.3rem;
+        padding-left: 1rem;
     }
     .wrapper_flex {
         display: flex;
@@ -36,9 +37,25 @@ footer {
 @media screen and (min-width:820px ) {
     h1 { 
         font-size: 2.5rem;
+        padding-left: 2rem;
     }
     .wrapper_columns {
-        column-count: 2;
-        column-gap: 2rem;
+       /* column-count: 2;
+       column-gap: 2rem; */
+        display: flex;
+        align-items: flex-start;
+        .wrapper_item_flex {
+            width: 50%;
+            padding: 0 1rem;
+            p:nth-of-type(1) {
+                margin-top: 0;
+            }
+        }
+    }
+    section {
+        background-color: rgb(146, 73, 73);
+        h2 {
+            padding-left: 1rem;
+        }
     }
 }
