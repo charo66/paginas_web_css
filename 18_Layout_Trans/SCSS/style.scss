@@ -47,7 +47,11 @@ header {
     h1 {
         @include reset(vert);
         font-family: 'Abril Fatface', cursive;
-        font-size: 2.4rem;
+        font-size: 0.2rem;
+        transition: transform 3s ease;
+        transform: scale(10);
+
+        
     }
 }
 
@@ -78,10 +82,11 @@ nav {
     /*SUB Menu*/
     ul{
         ul {
-            display: none;
+            opacity: 0 ;
+            transition: opacity 0.5s linear;
         }
         li:hover>ul {
-            display: block;
+            opacity: 1;
             background-color: rgba(237, 253, 253, 0.5);
         }
     }
@@ -90,7 +95,7 @@ nav {
     >ul {
         >li {
             position: relative;
-            &:hover>ul {
+            &>ul {
                 position: absolute;
                 top: 1.8rem;
                 left: 0rem;
@@ -99,7 +104,7 @@ nav {
                 padding: 0.3rem 2rem;
             }
             /*Tercer Submenu */
-            >ul>li:hover ul{
+            >ul>li ul{
                 position: absolute;
                 top: 0rem;
                 left: 7.2rem;
