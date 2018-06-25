@@ -30,6 +30,7 @@ header {
   position: relative;
   height: 100vh;
 }
+
 header div {
   position: absolute;
   width: 100%;
@@ -38,6 +39,7 @@ header div {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 header div::before {
   position: absolute;
   top: 0;
@@ -48,6 +50,7 @@ header div::before {
   background-color: darkgray;
   opacity: 0.5;
 }
+
 header h1 {
   position: relative;
   clear: both;
@@ -66,37 +69,48 @@ nav {
   z-index: 10;
   right: 0;
 }
+
 nav ul {
   list-style: none;
   padding: 0;
 }
-nav ul a {
-  color: inherit;
-  text-decoration: none;
-  padding: 0.2rem 2rem;
-}
-nav ul a:hover {
-  color: aliceblue;
-  background-color: brown;
-}
+
 nav ul ul {
   display: none;
 }
+
 nav ul li:hover > ul {
   display: block;
 }
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.2rem 2rem;
+  display: block;
+}
+
+nav a:hover {
+  color: aliceblue;
+  background-color: brown;
+}
+
 nav > ul > li {
   display: inline-block;
   position: relative;
 }
+
 nav > ul > li:hover > ul {
   position: absolute;
   top: 2.5rem;
-  left: 1 rem;
+  left: 1rem;
 }
+
 nav > ul > li > a {
   padding: 1.5rem 2rem;
+  display: inline;
 }
+
 nav > ul > li > ul > li:hover ul {
   position: absolute;
   top: 0rem;
@@ -115,16 +129,14 @@ section {
   float: left;
   padding-right: 3rem;
 }
-section h2 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
+
 section div {
-  width: 50%;
-  float: left;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  column-count: 2;
+  column-gap: 3rem;
+  column-rule: 1px solid;
+  border-bottom: 1px solid;
 }
+
 section div p:nth-of-type(1) {
   margin-top: 0;
 }
@@ -141,8 +153,11 @@ footer {
   text-align: center;
   padding-top: 2rem;
 }
+
 footer p {
   margin-top: 0;
 }
 
-/*# sourceMappingURL=css/Style.css.map */
+/*# sourceMappingURL=css/col.css.map */
+
+/*# sourceMappingURL=css/col.css.map */

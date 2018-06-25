@@ -1,0 +1,16 @@
+html {
+    background-color: aqua
+}
+
+section {
+    border: 1px solid;
+    width: 100px;
+    height: 200px;
+}
+div {
+    background-color: salmon;
+    border: 1px solid;
+    width: 20%;
+    height: 20%;
+    margin: 50%;
+}

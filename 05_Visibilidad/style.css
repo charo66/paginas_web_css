@@ -4,12 +4,14 @@
 body {
     margin: 2rem;
 }
-h1{
+h1 {
     background-color: bisque;
 }
+
 .ingles {
     background-color: darkorange
 }
+
 section div.wrapper {
     background-color: bisque;
     overflow: auto;
@@ -29,6 +31,18 @@ section div.img-wrapper {
     padding: 2rem;
     /* display: none; */
     visibility: hidden;
+}
+
+section div.wrapper:hover div.img-wrapper {
+    /* display: block; */
+    visibility: visible;
+    color: rgb(248, 221, 187)
+}
+
+section div.img-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    color: rgb(41, 177, 154)
 }
 
 section div.wrapper:hover div.img-wrapper {
