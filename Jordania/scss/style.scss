@@ -3,3 +3,16 @@
 *:before, *:after { 
 box-sizing : border-box;
 }
+th, td {
+    padding: 0.8rem 2rem; 
+}
+
+th {
+    background-color: maroon;
+    color: bisque
+
+}
+
+td {
+    background-color: bisque
+}
