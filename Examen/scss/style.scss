@@ -1,0 +1,20 @@
+@mixin reset($tipo: full) {
+    @if ($tipo==full) 
+    {
+        margin: 0;
+        padding: 0;    
+    } @else if ($tipo==vert) {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+   @include reset();
+}
