@@ -3,7 +3,8 @@
 *:before, *:after { 
 box-sizing : border-box;
 }
-th, td {
+.tabla {
+    th, td {
     padding: 0.8rem 2rem; 
 }
 
@@ -15,4 +16,4 @@ th {
 
 td {
     background-color: bisque
-}
+}}

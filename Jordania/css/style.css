@@ -4,4 +4,15 @@
   box-sizing: border-box;
 }
 
-/*# sourceMappingURL=style.css.map */
+.tabla th, .tabla td {
+  padding: 0.8rem 2rem;
+}
+.tabla th {
+  background-color: maroon;
+  color: bisque;
+}
+.tabla td {
+  background-color: bisque;
+}
+
+/*# sourceMappingURL=css/style.css.map */
