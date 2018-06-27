@@ -1,17 +1,36 @@
+/* body,h1,h2, h3, figure, nav{
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+
+} */
 *,
 *::before, *::after,
 *:before, *:after {
   box-sizing: border-box;
 }
 
-.tabla th, .tabla td {
+body {
+  background-color: bisque;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+}
+header .tabla th, header .tabla td {
   padding: 0.8rem 2rem;
 }
-.tabla th {
+header .tabla th {
   background-color: maroon;
   color: bisque;
 }
-.tabla td {
+header .tabla td {
   background-color: bisque;
 }
 
