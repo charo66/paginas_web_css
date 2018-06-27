@@ -18,17 +18,15 @@ $color_back: #3E606F; */
 
 
 header {
-    position: relative;
+    
+  position: relative;
     height: 30vh;
-    background-image: url('../assets/ico-destinonegocio-ee.uu-istock-getty-images-1019x430.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: center; 
     padding-right: 1rem;
     padding-left: 1rem;
-    &::before {
+    /* &::before {
         position: absolute;
         top: 0;
         left: 0;
@@ -36,15 +34,17 @@ header {
         right: 0;
         content: "";
         background-color: black;
-        opacity: 0.5; 
+        opacity: 0.5;  */ 
     }
       
     h1 {
-        position: relative;
-        font-family: 'Indie Flower', cursive;
-        font-size: 2    rem;
-        padding-right: 0.3rem;
-        color: #FCFFF5;
+        h1 {text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size:46px;
+            color: red;
+            text-shadow: 5px 5px 5px rgb(128,128,128)}
+        div#head {width:80%;
+                }	
     }
     nav {
         position: relative;
