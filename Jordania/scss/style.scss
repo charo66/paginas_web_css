@@ -1,50 +1,41 @@
-//reset
- body,h1,h2, h3, figure, nav{
-    margin-top: 0rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-
-} 
 *, 
 *::before, *::after, 
 *:before, *:after { 
 box-sizing : border-box;
 }
 
+body {
+    margin: 0;
+}
 
-/* 
 $color_main: #FCFFF5;
-$color_back: #3E606F; */
+$color_back: #3E606F;
 
 
 header {
-    
-  position: relative;
-    height: 30vh;
+    position: relative;
+    height: 20vh;
     display: flex;
     justify-content: space-around;
     align-items: center; 
     padding-right: 1rem;
     padding-left: 1rem;
-    /* &::before {
+    &::before {
         position: absolute;
         top: 0;
         left: 0;
         bottom: 0;
         right: 0;
         content: "";
-        background-color: black;
-        opacity: 0.5;  */ 
-    }
+        background-color: maroon;
+           }
       
     h1 {
-        h1 {text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size:46px;
-            color: red;
-            text-shadow: 5px 5px 5px rgb(128,128,128)}
-        div#head {width:80%;
-                }	
+        position: relative;
+        font-family: 'Fantasy', cursive;
+        font-size: 2    rem;
+        padding-right: 0.3rem;
+        color: #FCFFF5;
     }
     nav {
         position: relative;
@@ -71,7 +62,7 @@ nav.menu-mobile,
 nav.menu-desk {
     background-color: $color_main;
     color: $color_back;
-    font-family: 'Indie Flower', cursive;
+    font-family: fantasy;
     ul {
         margin: 0;
         padding-left: 0;
@@ -93,7 +84,7 @@ nav.menu-desk {
         border-top: 1px silver solid;
 
         &:hover {
-            background-color: $color_back;
+            background-color: bisque;
             color: rgb(252, 255, 245);
         }
 
@@ -173,12 +164,12 @@ td {
 }
 
 th {
-    background-color: #3E606F;
+    background-color:maroon;
     color: #FCFFF5;
 }
 
 td {
-    background-color: rgb(215, 239, 255);
+    background-color:bisque;
 }
 
 
@@ -189,7 +180,7 @@ footer {
     padding-top: 1rem;
     min-height: 30vh;
     text-align: center;
-    background-color: #3E606F;
+    background-color:maroon;
     color: #FCFFF5;
 
     :last-child {
@@ -268,8 +259,8 @@ footer {
             transition: color 0.2s linear;
             border-top: none;
             &:hover {
-                color: rgb(131, 131, 131);
-                background-color: rgba(62, 96, 111, 0);
+                color:maroon;
+                
             }
         }  
     }
