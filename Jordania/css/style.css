@@ -47,6 +47,11 @@ body {
     font-family: "Verdana", cursive;
     font-size: 0.5 rem;
 }
+.go_up {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 2rem;
+}
   header nav {
     font-size: 2rem;
   }
