@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
+
 
 *,
 *::before, *::after,
@@ -48,7 +48,7 @@ body {
     font-size: 0.5 rem;
 }
 
-}
+
   header nav {
     font-size: 2rem;
   }
@@ -93,8 +93,7 @@ body {
   section img {
     width: 100%;
     max-width: 650px;
-    display:block;
-    margin:auto;
+    
         }
   
   footer {
@@ -124,9 +123,7 @@ body {
       flex: 0 1 25%;
     }
   
-    section figure {
-      margin: 0;
-    }
+    
   }
   @media screen and (min-width: 820px) {
     header h1 {
@@ -137,6 +134,15 @@ body {
     header nav {
       display: none;
     }
+
+    figure {
+      width: 100%;
+      max-width: 650px;
+      display:block
+      
+      
+      }
+      
   
     nav.menu-mobile {
       display: none;
